@@ -1,18 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-.header {
-  background-color: midnightblue;
-
+html {
+  margin: none;
+  padding: none;
 }
 
 header {
+  font-family: "Ubuntu", sans-serif;
+  background-color: midnightblue;
+  height: 80px;
+  position: fixed;
+  z-index: 10;
 
 }
 
 h1 {
-  font-family: "Ubuntu", sans-serif;
-  margin: 0;
-  padding: 0;
+
+}
+
+nav {
+  color: gray;
+}
+
+.navButton {
+  background-color: white;
+  color: orange;
+  text-decoration: none;
+  padding: 5px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  border-radius: 5px;
+  position: relative;
+  top: 40px;
+
 }
 
 p {
@@ -21,8 +42,13 @@ p {
 
 .welcome {
   color: gray;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .intro {
   color: gray;
+  position: relative;
+  top: 80px;
 }
